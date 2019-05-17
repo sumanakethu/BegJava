@@ -3,7 +3,7 @@ package com.Suarez;
 Sumana Kethu
 March 20, 2019
 Program: We are going to calculate the area of a circle
-we must declare a float constant for Pi, a floar Radius and a double for Area
+we must declare a float constant for Pi, a float Radius and a double for Area
 */
 
 public class CircleArea {

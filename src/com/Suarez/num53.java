@@ -11,7 +11,8 @@ public class num53 {
         Random randy = new Random();
         int randy1= randy.nextInt(101);
         int randy2 = randy.nextInt(101);
-        double smaller= Math.min (randy1, randy2);
-        System.out.println(smaller);
+        int smaller= Math.min (randy1, randy2);
+        System.out.println("The two random numbers are " + randy1 + " and " + randy2);
+        System.out.println("The smaller number is " + smaller);
     }
 }
