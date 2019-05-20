@@ -21,7 +21,15 @@ public class finalProject {
         System.out.println("Have you played before?");
         Scanner scann = new Scanner(System.in);
         String playedbefore = scann.nextLine();
-        fw.write(playedbefore+"\n");
+        if (playedbefore.equalsIgnoreCase("yes")||playedbefore.equalsIgnoreCase("y")) {
+            fw.write("has played before");
+        }
+            else
+                {
+                    fw.write("has not played before");
+            }
+
+
         fw.close();
 
             objectclass.loop(); //while loop from client class
